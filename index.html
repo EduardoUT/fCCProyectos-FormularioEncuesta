@@ -1,0 +1,140 @@
+<!--!DOCTYPE html-->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Survey Form</title>
+</head>
+
+<body id="body-conf">
+  <div id="container">
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description"> Thank you for taking the time to help us improve the platform </p>
+    <form id="survey-form">
+      <div class="group">
+        <label for="name" id="name-label">
+          <p class="form-typography">Name</p>
+        </label>
+        <input type="text" placeholder="Enter your name" id="name" name="name" class="textfield-format" required autofocus>
+      </div>
+      <div class="group">
+        <label for="email" id="email-label">
+          <p class="form-typography">Email</p>
+        </label>
+        <input type="email" id="email" name="email" class="textfield-format" placeholder="Enter your Email" required>
+      </div>
+      <div class="group">
+        <label for="age" id="number-label">
+          <p class="form-typography">Age (Optional)</p>
+        </label>
+        <input type="number" id="number" name="number" class="textfield-format" placeholder="Age" min="10" max="99">
+      </div>
+      <div class="group">
+        <label for="dropdown">
+          <p class="form-typography">Which option best describes your current role?</p>
+        </label>
+        <select id="dropdown" name="dropdown" required="" class="textfield-format">
+          <option value="" disabled="" selected="">Select current role</option>
+          <option value="Student">Student</option>
+          <option value="Full Time Job">Full Time Job</option>
+          <option value="Full Time Learner">Full Time Learner</option>
+          <option value="Prefer not to say">Prefer not to say</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <div class="group">
+        <fieldset>
+          <legend class="form-typography">Would you recommend freeCodeCamp to a friend?</legend>
+          <label for="definitely">
+            <input type="radio" id="definitely" value="Definitely" name="radio-options" checked="" required="">
+            <p class="form-typography">Definitely</p>
+          </label>
+          <label for="maybe">
+            <input type="radio" id="maybe" value="Maybe" name="radio-options">
+            <p class="form-typography">Maybe</p>
+          </label>
+          <label for="not-sure">
+            <input type="radio" id="not-sure" value="Not Sure" name="radio-options">
+            <p class="form-typography">Not Sure</p>
+          </label>
+        </fieldset>
+      </div>
+      <div class="group">
+        <label for="dropdown-two" id="dropdown-two-label">
+          <p class="form-typography"> What is your favorite feature of freeCodeCamp? </p>
+        </label>
+        <select id="dropdown-two" name="dropdown-two" required="" class="textfield-format">
+          <option value="" disabled="" selected="">Select an option</option>
+          <option value="Challenges">Challenges</option>
+          <option value="Projects">Projects</option>
+          <option value="Community">Community</option>
+          <option value="Open Source">Open Source</option>
+        </select>
+      </div>
+      <div class="group">
+        <fieldset>
+          <legend class="form-typography">What would you like to see improved? (Check all that apply) </legend>
+          <label for="front-end">
+            <input type="checkbox" id="front-end" value="Front-end Projects" name="group-checkbox">
+            <p class="form-typography">Front-end Projects</p>
+          </label>
+          <label for="back-end">
+            <input type="checkbox" id="back-end" value="Back-end Projects" name="group-checkbox">
+            <p class="form-typography">Back-end Projects</p>
+          </label>
+          <label for="data-visualization">
+            <input type="checkbox" id="data-visualization" value="Data Visualization" name="group-checkbox">
+            <p class="form-typography">Data Visualization</p>
+          </label>
+          <label for="challenges">
+            <input type="checkbox" id="challenges" value="Challenges" name="group-checkbox">
+            <p class="form-typography">Challenges</p>
+          </label>
+          <label for="open-source-community">
+            <input type="checkbox" id="open-source-community" value="Open Source Community" name="group-checkbox">
+            <p class="form-typography">Open Source Community</p>
+          </label>
+          <label for="gitter-help-rooms">
+            <input type="checkbox" id="gitter-help-rooms" value="Gitter help rooms" name="group-checkbox">
+            <p class="form-typography">Gitter help rooms</p>
+          </label>
+          <label for="videos">
+            <input type="checkbox" id="videos" value="Videos" name="group-checkbox">
+            <p class="form-typography">Videos</p>
+          </label>
+          <label for="city-meetups">
+            <input type="checkbox" id="city-meetups" value="City Meetups" name="group-checkbox">
+            <p class="form-typography">City Meetups</p>
+          </label>
+          <label for="wiki">
+            <input type="checkbox" id="wiki" value="Wiki" name="group-checkbox">
+            <p class="form-typography">Wiki</p>
+          </label>
+          <label for="forum">
+            <input type="checkbox" id="forum" value="Forum" name="group-checkbox">
+            <p class="form-typography">Forum</p>
+          </label>
+          <label for="additional-courses">
+            <input type="checkbox" id="additional-courses" value="Additional Courses" name="group-checkbox">
+            <p class="form-typography">Additional Courses</p>
+          </label>
+        </fieldset>
+      </div>
+      <div class="group">
+        <label for="comments-box">
+          <p class="form-typography">Any comments or suggestions?</p>
+        </label>
+        <textarea name="form-textarea" id="textarea" placeholder="Enter your comment here..." class="textfield-format"></textarea>
+      </div>
+      <div class="group">
+        <input type="submit" value="Submit" id="submit">
+      </div>
+    </form>
+  </div>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
