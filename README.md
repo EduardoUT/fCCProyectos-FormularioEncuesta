@@ -2,7 +2,7 @@
 Un proyecto propuesto por freeCodeCamp.org para reforzar conocimientos en CSS3 y HTML5. 
 
 **Página Web:**
-https://eduardout.github.io/fCCProyectos-PaginaProductos/
+https://eduardout.github.io/fCCProyectos-FormularioEncuesta/
 
 **Proyecto Propuesto:**
 https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form/
