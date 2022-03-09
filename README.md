@@ -51,6 +51,10 @@ el objetivo.
 
 ![Herramienta de Prueba de Requerimientos](https://raw.githubusercontent.com/EduardoUT/fCCProyectos-FormularioEncuesta/master/assets/img/readme/test.PNG)
 
+**Resultados de Pruebas:**
+
+![Resultado](https://raw.githubusercontent.com/EduardoUT/fCCProyectos-FormularioEncuesta/master/assets/img/readme/results.PNG)
+
 **Vista Previa:**
 
 ![Vista Previa Formulario Encuesta](https://raw.githubusercontent.com/EduardoUT/fCCProyectos-FormularioEncuesta/master/assets/img/readme/Formulario_freeCodeCamp.PNG)
